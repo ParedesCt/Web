@@ -1,0 +1,115 @@
+.options-container {
+  display: flex;
+  flex-direction: column;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333; 
+  padding: 10px;
+}
+
+body {
+  margin: 0px; 
+  padding: 0%; 
+  background-image: url('./imgLaPaz/fondo.jpg');
+  background-size: cover; 
+  background-position: center; 
+  font-family: 'Arial', sans-serif; 
+  background-repeat: no-repeat;   
+  background-attachment: fixed;  
+  min-height: 100vh;
+ overflow: hidden;  
+ background-color: rgba(255, 255, 255, 0.9); 
+  color: white;
+  }
+
+.scrollable-container {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container p {
+  text-align: center;
+}
+
+
+.button-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.main-button {
+  padding: 10px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-size: 16px; 
+  font-weight: bold; 
+}
+
+.options-container {
+  margin-top: 5px;
+}
+
+.options-container a {
+  text-decoration: none;
+}
+
+.options-container button {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color: orange;
+  color: white;
+}
+
+
+.button-container.hovered .main-button,
+.options-container button:hover {
+  background-color: #2E4053; 
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.link-to-home {
+  border: 5px solid #FFA500; 
+  padding: 5px 10px; 
+  color: white; 
+  text-decoration: none; 
+  transition: border 0.3s, color 0.3s; 
+  border-radius: 10px;
+  font-size: 16px; 
+  font-weight: bold;
+}
+
+.link-to-home:hover {
+  border-color: #007BFF; 
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 7vh; 
+}
+
